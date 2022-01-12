@@ -1,0 +1,54 @@
+body {
+    display: grid;
+    align-items: center;
+    background-color: lightgray;
+    margin: 1em auto;
+    max-width: 40%;
+}
+
+header {
+    background-color: lightseagreen;
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    justify-items: center;
+    border-radius: 1em;
+}
+
+main {
+    background-color: honeydew;
+    text-align: left;
+    font-size: 20px;
+}
+
+footer {
+    background-color: lightseagreen;
+    border: 2px solid gray;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 1em;
+    text-align: center;
+    font-size: large;
+}
+
+#lessons {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+#heading {
+    margin-left: 1em;
+}
+
+#obs {
+    text-align: center;
+    font-size: medium;
+}
+
+#profile {
+    margin: 1em;
+    border-radius: 1em;
+}
