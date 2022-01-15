@@ -2,15 +2,13 @@ body {
     display: grid;
     align-items: center;
     background-color: lightgray;
-    margin: 1em auto;
-    max-width: 40%;
+    max-width: 100%;
 }
 
 header {
     background-color: lightseagreen;
     border: 2px solid gray;
     display: grid;
-    grid-template-columns: 40% 60%;
     align-items: center;
     justify-items: center;
     border-radius: 1em;
@@ -40,7 +38,7 @@ footer {
 }
 
 #heading {
-    margin-left: 1em;
+    text-align: center;
 }
 
 #obs {
@@ -51,6 +49,7 @@ footer {
 #profile {
     margin: 1em;
     border-radius: 1em;
+    width: 100px;
 }
 
 #name {
