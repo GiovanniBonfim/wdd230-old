@@ -1,0 +1,20 @@
+@media (min-width: 65em) {
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+
+    #contrast {
+        grid-column: 3/4;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
