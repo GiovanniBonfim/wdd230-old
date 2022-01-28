@@ -28,4 +28,18 @@
 		height: auto;
 		border: 1px solid #bbb;
 	}
+
+	main,
+	header,
+	footer {
+		max-width: 900px;
+	}
+
+	nav {
+		max-width: 920px;
+	}
+
+	article p {
+		font-size: 1rem;
+	}
 }
