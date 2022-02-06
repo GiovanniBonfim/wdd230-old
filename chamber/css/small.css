@@ -1,0 +1,191 @@
+#hamburguerBtn {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  header {
+      display: flex;
+      background-color: rgb(204, 243, 230);
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  footer {
+    background-color: rgb(204, 243, 230);
+  }
+
+  .footer1, .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer1 picture {
+    margin: 1em;
+  }
+
+  .footer1 h1 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .footer1 p {
+    margin: 0.5em;
+  }
+
+  .adress {
+    margin: 0;
+    text-align: center;
+  }
+
+  .map {
+    text-decoration: none;
+    margin-bottom: 1em;
+    color: #2D51A3;
+  }
+  
+  .material-icons {
+    width: 1em;
+    color: red
+  }
+
+  .header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  h1 {
+    font-family: "Sansita", sans-serif;
+  }
+
+  .date {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #currentDate {
+    font-size: 0.9em;
+    padding: 0.8em;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  ul {
+      display: none;
+  }
+
+  #logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 1rem;
+      max-width: 70px;
+  }
+
+  #logo img {
+    max-width: 60px;
+  }
+
+  nav {
+    display: flex;
+    margin: 0 1em;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  #siteName h1 {
+      margin-bottom: 0;
+      font-family: "Sansita" , sans-serif;
+  }
+
+  #siteName p {
+      margin-top: 0.5em;
+  }
+
+  article {
+      background-color: #eee;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      height: 150px;
+      margin: 5px 10px;
+  }
+
+  article p {
+    margin-left: 1em;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .date ul {display: none;}
+
+  .date ul.open {
+    display: block;
+    list-style-type: none;
+    color: #2D51A3;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.5);
+    float: right;
+  }
+
+  .date ul.open li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+
+  .date ul.open li {
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding: 0 2em;
+  }
+
+  #copyright {
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1em 0;
+  }
+
+  .logo img {
+    max-width: 30px;
+  }
+
+  .logo {
+    margin-right: 0.5em;
+  }
+
+  .spotlight {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 1em;
+  }
