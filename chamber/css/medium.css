@@ -1,0 +1,54 @@
+@media only screen and (min-width: 37.5em) {
+
+ main {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ article {
+     grid-column: 1/4;
+ }
+
+ .hidden {
+     display: block;
+ }
+
+ #event {
+     grid-column: 1/3;
+ }
+
+ #weather {
+     grid-column: 3/4;
+ }
+
+ .date ul.open li {
+    padding: 0 8em;
+}
+
+footer {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#footer1 {
+    text-align: center;
+}
+
+#footer2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer2 p {
+    margin: 0.5em 1em;
+}
+
+#copy {
+    grid-column: 1/3;;
+}
+
+
+}
