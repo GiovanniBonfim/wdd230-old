@@ -93,4 +93,8 @@ main {
     max-height: 700px
 }
 
+#spot .hidden {
+    display:block;
+}
+
 }
