@@ -14,12 +14,14 @@
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
         <script defer src="js/script.js"></script>
+        <script defer src="js/windchill.js"></script>
     </head>
 <body>
     <header>
         <section class="header1">
             <picture id="logo">
-                <img src="images/sbc_logo.png" alt="logo">
+                <img src="images/sbc_logo30.webp" alt="logo"
+                srcset="images/sbc_logo80.webp 1x, images/sbc_logo80.webp 2x,">
             </picture>
             <div id="siteName"> 
                 <h1>São Bernardo do Campo</h1>
@@ -55,7 +57,11 @@
 
     <main>
         <article id="welcome">
-            <img src="images/sbc.jpg" alt="image">
+            <picture>
+                <source media="(max-width:600px)" srcset="images/sbc_small.jpg">
+                <source media="(max-width:1023px)" srcset="images/sbc_medium.jpg">
+                <img src="images/sbc_large.jpg" alt="SBC">
+            </picture>
             <p>Welcome to SBC</p>
             <div id="joinBtn">Join Now</div>
         </article>
@@ -69,7 +75,11 @@
         </article>
         <article id="weather">
             <h2>Weather</h2>
-            <h3>33°C</h3>
+            <h3><span id="temperature">33</span>°C</h3>
+            <div>
+                <p>Wind speed:<span id="windSpeed"> 2.5</span>km/h</p>
+                <p>Wind chill:<span id="windChill"> </span></p>
+            </div>
         </article>
         <article id="news">
             <h2>News Release</h2>
@@ -102,7 +112,7 @@
     <footer>
         <section class="footer1">
             <picture>
-                <img src="images/sbc_logo.png" alt="SBC logo">
+                <img src="images/sbc_logo80.webp" alt="SBC logo">
             </picture>
             <h1>SBC Chamber of Commerce</h1>
             <p class="adress">

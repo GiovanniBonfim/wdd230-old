@@ -35,10 +35,6 @@ body {
     margin: 1rem;
 }
 
-.logo img {
-    max-width: 60px;
-}
-
 #logo img {
     max-width: 150px;
     width: 150px;
