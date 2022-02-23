@@ -235,3 +235,12 @@
     margin: 1em;
   }
   
+  #gallery {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .divGallery {
+    display: flex;
+    flex-direction: column;
+  }
