@@ -244,3 +244,5 @@
     display: flex;
     flex-direction: column;
   }
+
+  .divGallery picture:hover {box-shadow: 0 0 50px #333;}
