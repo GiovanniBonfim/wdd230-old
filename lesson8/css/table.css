@@ -16,8 +16,12 @@ table thead {
     
 }
 
-.zebra {
+tr:nth-of-type(even) {
     background-color: rgba(0,0,0,0.05)
+}
+
+tr:nth-of-type(4) td:nth-of-type(3) {
+    background-color: rgba(0,100,0,0.5);
 }
 
 td {
@@ -28,7 +32,7 @@ th {
     border: thin solid black;
 }
 
-tfoot th {
+tfoot td {
     font-size: 0.8em;
     padding: 10px 0;
     background-color: rgb(94, 199, 150);
