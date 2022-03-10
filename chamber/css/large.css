@@ -93,4 +93,24 @@ main {
     display:block;
 }
 
+form {
+    grid-column: 2/4;
+    grid-row: none;
+}
+
+.joinBtn {
+    width: 80%;
+    max-width: 40rem;
+    font-size: 1.2rem;
+}
+
+#thanks {
+    grid-column: 2/4;
+    grid-row: none;
+}
+
+#thanks img {
+    max-width: 50rem;
+  }
+
 }

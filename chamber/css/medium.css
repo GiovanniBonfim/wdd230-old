@@ -68,4 +68,30 @@ footer {
     padding: 1em;
 }
 
+form {
+    grid-column: 1/4;
+}
+
+form label input, form label select{
+    max-width: 40rem;
+}
+
+.joinBtn {
+    width: 80%;
+    max-width: 40rem;
+    font-size: 1.2rem;
+}
+
+textarea {
+    max-width: 40rem;
+}
+
+#thanks {
+    grid-column: 2/3;
+}
+
+#thanks img {
+    max-width: 30rem;
+  }
+
 }

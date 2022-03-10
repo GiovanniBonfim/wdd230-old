@@ -246,3 +246,66 @@
   }
 
   .divGallery picture:hover {box-shadow: 0 0 50px #333;}
+
+  form {
+    margin: 50px 25px;
+  }
+
+  form fieldset {
+    border: 1px solid #999;
+    border-radius: 20px;
+  }
+
+  form fieldset label {
+    display: block;
+    margin: 15px;
+    padding-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  form label input, form label select {
+    display: block;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 20rem;
+    height: 50px;
+  }
+
+  form input.joinBtn {
+    border: none;
+    background-color: #2D51A3;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+
+form label input:required{
+  border-left: red solid 6px;
+}
+
+form label input:required:valid {
+  border-left: green solid 6px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 50px;
+  width: 95%;
+  max-width: 20rem;
+}
+
+#thanks {
+  border: 1px solid #999;
+  border-radius: 20px;
+  margin: 50px 25px;
+  text-align: center;
+  padding: 1rem;
+}
+
+#thanks img {
+  max-width: 15rem;
+}
+
