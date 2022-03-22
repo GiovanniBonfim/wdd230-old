@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="The Chamber of Commerce Page">
+        <title>SBC Chamber of Commerce</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sansita&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/script.js"></script>
+        <script defer src="js/windchill.js"></script>
+        <script defer src="js/directory.js"></script>
+    </head>
+<body>
+    <header>
+        <section class="header1">
+            <picture id="logo">
+                <img src="images/sbc_logo30.webp" alt="logo">
+            </picture>
+            <div id="siteName"> 
+                <h1>São Bernardo do Campo</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+            <nav>
+                <div class="logo">
+                    <a href=""><img src="images/facebook-logo.png" alt="facebook"></a>
+                </div>
+                <div class="logo">
+                    <a href=""><img src="images/linkedin-logo.png" alt="linked in"></a>
+                </div>
+                <div id="hamburguerBtn" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div> 
+            </nav>
+        </section>
+        <section class="date">
+                <ul id="primaryNav">
+                    <li class="active"><a href="discover.html">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                    <li><a href="">Contact</a></li>    
+                </ul>
+                <p id="currentDate"></p>
+                <div id="banner">
+                    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+                </div>
+        </section>
+    </header>
+
+    <main class="directory">
+        <h2>Business Directory</h2>
+
+        <button id="sList">&#8863;</button>
+        <button id="sGrid">&#8862;</button>
+
+        <div id="lgDemo">
+            
+          </div>
+
+    </main>
+    <footer>
+        <section class="footer1">
+            <picture>
+                <img src="images/sbc_logo80.webp" alt="SBC logo">
+            </picture>
+            <h1>SBC Chamber of Commerce</h1>
+            <p class="adress">
+                100 Av. Marechal<br>
+                São Bernardo do Campo, SP 
+            </p>
+        </section>
+        <section id="footer2">
+            <p>info@sbccc.org</p>
+            <p>+55 (11)2020-2020</p>
+            <a class="map" href=""><i class="material-icons">room</i> Location Map</a>
+        </section>
+        <section id="copy">
+            <p id="copyright"></p>
+        </section>
+    </footer>
+</body>
+</html>
