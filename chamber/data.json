@@ -1,0 +1,88 @@
+{
+    "business":[
+    {
+        "name":"Ford Motor Company",
+        "adrress":"José Versolato, 101 - Center",
+        "phone":"(11)41744922",
+        "site":"https://www.ford.com.br/",
+        "logo":"https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/home/fbr-ford-logo-header-footer.png"
+    },
+    {
+        "name":"Volskwagen",
+        "adrress":"Marginal da Via Anchieta Road, Demarchi",
+        "phone":"(11) 43475212",
+        "site":"https://www.vw.com.br/pt.html",
+        "logo":"https://www.google.com/url?sa=i&url=http%3A%2F%2Fautoetecnica.band.uol.com.br%2Fvw-muda-seu-logo-mas-ignora-a-historia%2F&psig=AOvVaw0OFu_0zee4bdzpvr5YYDKh&ust=1648050668286000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjct6eJ2vYCFQAAAAAdAAAAABAD"
+    },
+    {
+        "name":"Mercedes-Benz",
+        "adrress":"Alfred Jurzykowski, 562 , Pauliceia",
+        "phone":"(11) 41736611",
+        "site":"https://www.mercedes-benz.com.br/",
+        "logo":"https://www.mercedes-benz.com.br/resources/media/l…2013d6b87154c8abaaba4dc980ce3b4_logos-site-mb.png"
+    },
+    {
+        "name":"Toyota",
+        "adrress":"Max Mangels Senior Street, 1024 - Planalto",
+        "phone":"(11) 43905100",
+        "site":"https://www.toyota.com.br/",
+        "logo":"https://www.toyota.com.br/wp-content/themes/toyota/desktop-images/logo_toyota.png"
+    },
+    {
+        "name":"Sada",
+        "adrress":"Estrada dos Alvarengas, 4018 - Assunção",
+        "phone":"(31) 30710700",
+        "site":"https://www.gruposada.com.br/",
+        "logo":"https://i3.wp.com/www.gruposada.com.br/wp-content/uploads/2021/05/MARCA_SADA-1.png"
+    },
+    {
+        "name":"Ecorodovias",
+        "adrress":"Rodovia dos Imigrantes - Alvarenga",
+        "phone":"(11) 43596059",
+        "site":"https://www.ecorodovias.com.br/",
+        "logo":"https://www.ecorodovias.com.br/custom/site-ecorodovias-platform/img/logo-ecorodovias.png"
+    },
+    {
+        "name":"Termomecanica São Paulo",
+        "adrress":"Av Caminho do Mar, 2652 - Rudge Ramos",
+        "phone":"(11) 43669758",
+        "site":"https://www.termomecanica.com.br/",
+        "logo":"https://www.termomecanica.com.br/images/logo-termomecanica2.png"
+    },
+    {
+        "name":"Bombril",
+        "adrress":"Via Anchieta - Rudge Ramos",
+        "phone":"",
+        "site":"https://www.bombril.com.br/",
+        "logo":"https://www.bombril.com.br/media/img/logo-bombril.png"
+    },
+    {
+        "name":"Makita",
+        "adrress":"Rua Makita Brasil, 200 - Cooperativa",
+        "phone":"(42) 33022100",
+        "site":"http://www.makita.com.br/",
+        "logo":"http://www.makita.com.br/imagens/cabecalho/logo_makita.gif"
+    },
+    {
+        "name":"Colgate Palmolive",
+        "adrress":"Av Marginal direita da Via Anchieta - Rudge Ramos",
+        "phone":"(11) 43666000",
+        "site":"https://www.colgate.com.br/?utm_country=BR&gclid=Cj0KCQjw5-WRBhCKARIsAAId9Fk89qaHAqbjvXRYFmcLZo-6gtuiKi73uMVTKFZX6-PrQuwJjpIJJ_kaAnpVEALw_wcB",
+        "logo":"https://www.colgate.com.br/content/dam/cp-sites/or…nch/global/logos/logo.png.rendition.1280.1280.png"
+    },
+    {
+        "name":"Hercules Equipamentos de Proteção",
+        "adrress":"Av Robert Kennedy, 675 - Piraporinha",
+        "phone":"(11) 43916640",
+        "site":"https://hercules.com.br/",
+        "logo":"https://hercules.com.br/wp-content/uploads/2021/06/logotipo.svg"
+    },
+    {
+        "name":"Bracar",
+        "adrress":"Av Maria Servidei Demarchi, 2750 - Demarchi",
+        "phone":"(31) 30710700",
+        "site":"https://www.bracarpecas.com.br/site/",
+        "logo":"https://www.bracarpecas.com.br/site/wp-content/uploads/2017/01/logo-azul4.png"
+    }
+    ]
+}
